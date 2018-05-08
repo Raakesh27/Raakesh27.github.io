@@ -763,7 +763,7 @@ input:focus, textarea:focus {
     font-size: 30px;
     color: #FBEEE6;
     padding-left: 30px;
-    padding-top: 25%;
+    padding-top: 12%;
 }
 
 .under-2 {
@@ -771,7 +771,7 @@ input:focus, textarea:focus {
     font-size: 32px;
     color: #FBEEE6;
     padding-left: 30px;
-    padding-top: 80%;
+    padding-top: 12%;
 }
 
 .under-3 {

@@ -653,7 +653,8 @@ input, input:focus {
     padding: 12px;
     border: none;
     background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(51, 51, 51, 1);
+    /*color: rgba(51, 51, 51, 1);*/
+    color: #D5DBDB;
     outline: 0;
     font-size: 18px;
 }
@@ -662,7 +663,8 @@ textarea, textarea:focus {
     padding: 12px;
     border: none;
     background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(51, 51, 51, 1);
+    /*color: rgba(51, 51, 51, 1);*/
+    color: #D5DBDB;
     outline: 0;
     font-size: 14px;
     resize: none;
@@ -680,10 +682,11 @@ input:focus, textarea:focus {
     background-color: rgba(0, 0, 0, 0.1);
     padding: 12px;
     padding-bottom: 10px;
-    color: rgba(51, 51, 51, 1);
+    /*color: rgba(51, 51, 51, 1);*/
+    color: #777A7A;
     width: 100%;
     outline: 0;
-    color: rgba(51, 51, 51, 1);
+    /*color: rgba(51, 51, 51, 1);*/
     font-size: 18px;
     -webkit-box-shadow: 0px -7px 9px -7px rgba(0,0,0,0.7);
     -moz-box-shadow: 0px -7px 9px -7px rgba(0,0,0,0.7);
@@ -714,19 +717,23 @@ input:focus, textarea:focus {
 }
 
 ::-webkit-input-placeholder {
-    color: rgba(51, 51, 51, .5);
+    /*color: rgba(51, 51, 51, .5);*/
+    color: #777A7A;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: rgba(51, 51, 51, .5);
+   /*color: rgba(51, 51, 51, .5);*/
+   color: #777A7A;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: rgba(51, 51, 51, .5);
+   /*color: rgba(51, 51, 51, .5);*/
+   color: #959999;
 }
 
 :-ms-input-placeholder {
-   color: rgba(51, 51, 51, .5);
+   /*color: rgba(51, 51, 51, .5);*/
+   color: #959999;
 }
 
 .footer{
@@ -877,6 +884,215 @@ input:focus, textarea:focus {
 .clearfix {
     zoom: 1;
 }
+
+
+/*start of contact section*/
+
+.contacts .content {
+  font-size: 4vw;
+  text-align: center!important;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.contacts .content .smallTitle {
+  margin-top: 2%;
+  font-weight: 400;
+  word-spacing: 0;
+  line-height: 2.1vh;
+  text-shadow: 0 0 1px rgba(51,51,51,.2)2;
+  font-family: GothamNarrowLight,sans-serif;
+  line-height: normal;
+  font-size: 80%;
+}
+
+.contacts .content p.text {
+  width: 45%;
+  text-align: center;
+}
+
+.contacts .content .contactInfo {
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.contacts .content .contactInfo .iconContainer {
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.contacts .content .contactInfo .iconContainer a {
+  font-weight: 400;
+  word-spacing: 0;
+  line-height: 2.1vh;
+  text-shadow: 0 0 1px rgba(51,51,51,.2)2;
+  font-family: GothamNarrowLight,sans-serif;
+  color: #fff;
+  -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+  -o-transition: color .5s;
+  -ms-transition: color .5s;
+  transition: color .5s;
+}
+
+.contacts .content .contactInfo .iconContainer a:hover {
+  color: #3498db;
+  -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+  -o-transition: color .5s;
+  -ms-transition: color .5s;
+  transition: color .5s;
+}
+
+.contacts .content .contactInfo .email,
+.contacts .content .contactInfo .tel {
+  width: auto;
+  font-size: 30%;
+}
+
+.contacts .content .contactInfo .resume {
+  width: auto;
+  margin: 0;
+  font-size: 30%;
+}
+
+.contacts .content .contactInfo .tel {
+  margin: 0 0 0 55px;
+}
+
+.contacts .content .contactInfo .email {
+  margin: 0 0 0 15px;
+}
+
+.contacts .content .contactInfo .resume {
+  margin-left: 100px;
+  line-height: 7vh;
+  font-weight: 400;
+  word-spacing: 0;
+  letter-spacing: 0;
+}
+
+.contacts .content .contactInfo i.telIcon {
+  width: 50px;
+  height: 50px;
+  -webkit-background-size: 50px 50px;
+  -moz-background-size: 50px 50px;
+  background-size: 50px 50px;
+  background-image: url("/images/icons/tel.png");
+}
+
+.contacts .content .contactInfo i.emailIcon {
+  background-image: url("/images/icons/email.png");
+}
+
+.contacts .content .contactInfo i.emailIcon,
+.contacts .content .contactInfo i.resumeIcon {
+  width: 50px;
+  height: 50px;
+  -webkit-background-size: 50px 50px;
+  -moz-background-size: 50px 50px;
+  background-size: 50px 50px;
+}
+
+.contacts .content .contactInfo i.resumeIcon {
+  background-image: url("/images/icons/resume.png");
+}
+
+.first {
+  height: 75%;
+  position: relative;
+}
+
+.first #first {
+  background-color: #34495e;
+  opacity: .6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+  height: 100%;
+}
+
+.second {
+  height: 25%;
+  position: relative;
+}
+
+.second #first {
+  height: 100%;
+  background-color: #34495e;
+  opacity: .6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+}
+
+.contacts #first {
+  width: 100%;
+  z-index: -1!important;
+  position: absolute;
+}
+
+.contacts #second {
+  position: absolute;
+  filter: blur(5px);
+  width: 100%;
+  height: 103%;
+  background-image: url("../images/main.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  z-index: -2!important;
+}
+
+
+/*end of contact section*/
+
+
+
+
+
 
 /* ==========================================================================
    Print styles
